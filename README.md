@@ -56,6 +56,7 @@
   - [Mocking is a code smell](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a)
   - [AssertJs Panel Discussion on Testing](https://www.youtube.com/watch?v=ltzNIOF_L3E)
   - [Testing Javascript](https://testingjavascript.com/)
+  - [Quick intro to Property Based Testing](https://spin.atomicobject.com/2017/11/02/property-based-testing-javascript/)
   
   ##  Documentation
   [Data Flow Digram](https://www.lucidchart.com/pages/data-flow-diagram)
