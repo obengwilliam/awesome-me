@@ -17,6 +17,7 @@
  ### Software Delivery 
   - [Continous Delivery](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912)
   - [Release it ](https://www.amazon.com/Release-Design-Deploy-Production-Ready-Software-ebook/dp/B079YWMY2V)
+  - [Zach  Holman on Deployment](https://zachholman.com/posts/deploying-software)
 
  ### Nodejs
    - [Nodejs Design Patterns Book](https://books.google.com.gh/books/about/Node_js_Design_Patterns.html?id=55WqDQAAQBAJ&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false)
