@@ -37,6 +37,13 @@
   - [Rethinking Async Js by Kyle](https://frontendmasters.com/courses/rethinking-async-js/)
   - [functional lite by Kyle](https://frontendmasters.com/courses/functional-js-lite/)
   
+  ### Go 
+  
+  
+  
+  ### Python
+  
+  
  ### ReactJs
  
  ### Svelte
@@ -62,9 +69,9 @@
  ### Grpc
   
   
-  
  ### Devops
   - [Kubernetes](https://github.com/kelseyhightower/kubernetes-the-hard-way)
+  - [Infrastructure As Code](https://github.com/Artemmkin/infrastructure-as-code-tutorial)
 
   
  ### Kafka
@@ -80,4 +87,5 @@
 - [Learn from Marcus](https://marcusblankenship.com/learn/)
 - [The Passionate Programmer](https://www.goodreads.com/book/show/6399113-the-passionate-programmer)
 - [How to manage programmers](https://www.youtube.com/watch?v=NPlMcUxFOlY&t=111s)
+- 
 
