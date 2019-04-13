@@ -88,5 +88,6 @@
 - [Learn from Marcus](https://marcusblankenship.com/learn/)
 - [The Passionate Programmer](https://www.goodreads.com/book/show/6399113-the-passionate-programmer)
 - [How to manage programmers](https://www.youtube.com/watch?v=NPlMcUxFOlY&t=111s)
+- [Technical Debt](http://wiki.c2.com/?TechnicalDebt)
 - 
 
