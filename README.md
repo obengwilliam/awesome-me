@@ -1,4 +1,5 @@
-# Awesome Kudobuzz
+# Awesome
+Curated list of books and blogs
 
  ### Design && Architecture
   - [Twelve factor apps](https://www.oreilly.com/library/view/beyond-the-twelve-factor/9781492042631/)
@@ -90,5 +91,5 @@
 - [The Passionate Programmer](https://www.goodreads.com/book/show/6399113-the-passionate-programmer)
 - [How to manage programmers](https://www.youtube.com/watch?v=NPlMcUxFOlY&t=111s)
 - [Technical Debt](http://wiki.c2.com/?TechnicalDebt)
-- 
+- [Pick Yourself Up](https://medium.freecodecamp.org/one-way-to-greatness-pick-yourself-31945487731b)
 
