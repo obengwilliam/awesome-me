@@ -1,0 +1,2 @@
+Dependency Inverstion Principle
+ - 

@@ -1,0 +1,2 @@
+liskov substitution principle
+- 
