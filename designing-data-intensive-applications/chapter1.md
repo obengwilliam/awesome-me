@@ -1,6 +1,6 @@
 # Foundation of Data Systems
 
-##Thinking about systems
+## Thinking about systems
 - Data systems now ecompasses more than traditional databases and includes caches, queues, and message brokers.
 - They might have varying ways of both storing and processing data because of their specific use cases but they are still data systems 
 - A composite data systems involves combining mutlitple data systems glued together by some application code
