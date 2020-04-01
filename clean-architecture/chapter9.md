@@ -1,2 +1,1 @@
 liskov substitution principle
-- 
