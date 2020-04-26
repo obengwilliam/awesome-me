@@ -33,6 +33,7 @@ Curated list of books and blogs
  
  ### Javascript
   - [You Dont Know Js By Kyle](https://github.com/getify/You-Dont-Know-JS)
+  - [Javascript Allonge](https://leanpub.com/javascriptallongesix/read)
   - [Clean Code Javascript](https://github.com/ryanmcdermott/clean-code-javascript)
   - [What the heck is the event loop](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
   - [Deep Javascript by Kyle](https://frontendmasters.com/courses/javascript-foundations/)
