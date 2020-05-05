@@ -26,3 +26,7 @@ The above is a simple key value database, which is also and append only/log kind
 Everything seems pretty much find but while this is a simple implementation of a key value db a normal db might have to worry 
 making sure write are fast for large data, handling errors during retrieving and writing, make sure data storage
 is handled properly enough to not exceed the storage ... 
+
+### how to improve write for the above ?
+Now to do that we need to create some kind of signpost on how to easily find the key and value we are looking for. This additional data is what we call an index. While an index is all good it also affects writes, because anytime you writes you also need to update the index. 
+
