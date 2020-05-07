@@ -27,6 +27,7 @@ popular and used model of our time.  The main goal of the relation dbs was to hi
  
  Inspite of all this reasons, sql dbs are not going anymore since there specific use cases that makes them ideal inspite of all the problems, we have also seen a trend that involves what we now call POLYGLOT persistence. Polyglot persistence encourages you to use many more dbs in ur application instead of just sticking to one by they taking advantage of the different opportunities each db brings. 
  
+### Object Relational Mismatch
  
 
 
