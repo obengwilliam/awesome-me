@@ -30,6 +30,7 @@ Curated list of books and blogs
    - [Nodejs Best Practices](https://github.com/i0natan/nodebestpractices)
    - [Nodejs Security](https://www.amazon.com/Secure-Your-Node-js-Web-Application/dp/1680500856)
    - [NodeConf](https://www.youtube.com/channel/UCSnHfAloFJ5m6MymGycUeaQ)
+   - [Nodejs Profiling & Monitoring](https://github.com/StarpTech/profiling-nodejs)
  
  ### Javascript
   - [You Dont Know Js By Kyle](https://github.com/getify/You-Dont-Know-JS)
