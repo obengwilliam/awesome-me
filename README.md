@@ -95,3 +95,8 @@ Curated list of books and blogs
 - [Technical Debt](http://wiki.c2.com/?TechnicalDebt)
 - [Pick Yourself Up](https://medium.freecodecamp.org/one-way-to-greatness-pick-yourself-31945487731b)
 
+
+
+##Talks
+
+
