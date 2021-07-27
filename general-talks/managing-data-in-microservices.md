@@ -1,0 +1,63 @@
+[Managing Data in microservices](https://www.youtube.com/watch?v=E8-e-3fRHBw)
+
+-  Modern software development is set around organisation(small teams), practices(add, continuous delivery), technology(Microservices)and culture(devops)’
+- Microservices
+    - If you don’t end up regretting your early tech decisions, you probably over engineered 
+    - Single purpose
+    - Simple, well-defined interface
+    - Module and independent
+    - They are SOA’s done properly
+    - Shared Data
+        - There is one service that owns a particular kind of data.
+        - Every other copy of the above data is a read-only , non authoritative cache.
+        - Approach 1 : Synchronous Lookup
+        - Approach 2:  Async event
+        - Approach 3: shared metadata library
+        - Transactions
+            - No Two phase commit
+            - Think of it as a saga(Think of about a workflow of events/)
+            - To rollback apply compensating operations in reverse 
+            - Serverless are one the best way of implementing these things.
+            - 
+        - Joins
+            - Approach 1(1:N joins): Join in Client Application
+            - Approach 2(M:N join): Materialize view
+    - Have events(Something that I cared about happened) as a First Class Construct
+        - Fourth fundamental block(State Changes-Events) which encourages architectural flexibility.
+        - Events represent how the real world works 
+        - Events are a first class interface part of an interface.
+        - A service interface(any mechanism for getting data into and out of the service) includes
+            - Synchronous request-response(ReST, grace..etc)
+            - Events the service produces
+            - Events the service consumes
+            - Bulk reads and writes(ETL)
+    - Isolated persistence (No backdoor to snick into other service data)
+        - Only external access to data store is through published service interface
+        - 
+- Devops
+    - E2e to ownership from design to deployment to retirement
+    - Responsible for Features, quality, performance, operations and maintenance(You Build it you run it)
+- TDD
+    - Test help you go faster
+    - Increases development velocity
+    - Courage to refactor
+    - Confidence to break things 
+    - Catch bugs earlier 
+    - Do it right enough the first time. 
+        - Build one great thing instead of two half finished things
+        - Right is not equal to Perfect.(80/20 rule)
+        - The more constrained you are on time and resources , the more important it is to build a solid features
+        - No bug tracking system 
+    - Continous Delivery 
+        - Depplyed multiple times a day
+        - Rapid experimentations
+        - Solid systems
+            - Release smaller units of work
+            - Smaller changes to roll back to roll forward
+            - Faster to repair, easier to understand , simpler to diagnose
+            - 
+- Small teams
+    - Cross functional teams
+    - Depend on other teams for support
+    - Aligned to business domains
+    - Maintain a single service or a set related services 
