@@ -1,6 +1,6 @@
 [Managing Data in microservices](https://www.youtube.com/watch?v=E8-e-3fRHBw)
 
--  Modern software development is set around organisation(small teams), practices(add, continuous delivery), technology(Microservices)and culture(devops)’
+-  Modern software development is set around organisation(small teams), practices(tdd, continuous delivery), technology(Microservices)and culture(devops)’
 - Microservices
     - If you don’t end up regretting your early tech decisions, you probably over engineered 
     - Single purpose
