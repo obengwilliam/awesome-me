@@ -11,3 +11,4 @@
 - A team player is not someone does says yes all the time
 - If you not going to change some bahaviour, if you were reasonably confident in your estimates and if you dont have a new plan then **trying** is simply dishonest.
 -  Think about the team as whole when dealing with passive aggressions.
+-  Sometimes the only way to get the right yes is to be unfraid to say no
