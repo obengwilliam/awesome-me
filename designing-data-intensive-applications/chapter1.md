@@ -6,7 +6,7 @@
 - Data systems now ecompasses more than traditional databases and includes caches, queues, and message brokers.
 - They might have varying ways of both storing and processing data because of their specific use cases but they are still data systems 
 - A composite data systems involves combining mutlitple data systems glued together by some application code
-- The three common concern among any software system are scalability, maintability and reliability.
+- The three common concern among the design data system are scalability, maintability and reliability.
 
  ### Fundamental building blocks of a data intensive application 
   - Store data so an application can find it later(databases)
