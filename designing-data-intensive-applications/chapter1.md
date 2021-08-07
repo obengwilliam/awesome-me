@@ -1,5 +1,22 @@
 # Foundation of Data Systems
+A data intensive application is an application dealing with the challenges around 
+ - complexity of it data
+ - the speed at which data is coming in
+ - the amount of data 
 
+Every application basically does four things
+ - store data, so an application or the same application can find it later.
+ - Search by keyword or filter in various ways.(Search Indexes)
+ - save an expensive operation for use later.(Cache)
+ - send messages asynchronously for later processing.(Stream processing)
+ - crunch some details from large amount of accumalated data.(Batch processing)
+
+ All of these data systems have become such successful abstractions we hardly have to build anything from scratch
+ when building applications. Now, that is not so simple we still have to decide which of this tools to use and which 
+ approaches because there is a plethora of these systems. 
+ 
+ The book is simple about the principles and practicalities around these data systems and by knowing them we get to 
+ 
 ## Reliable,Scalable and Maintanable Applications
 
 ### Thinking about systems
