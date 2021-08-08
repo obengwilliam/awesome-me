@@ -25,26 +25,63 @@ Every application basically does four things
 - A composite data systems involves combining mutlitple data systems glued together by some application code
 - The three common concern among the design data system are scalability, maintability and reliability.
 
- ### Fundamental building blocks of a data intensive application 
-  - Store data so an application can find it later(databases)
-  - remember the results of an expensive operation to speed up reads(caches)
-  - Allow users to search data and filter different ways(search indexes)
-  - Send a message to another process to be handled asynchronously(stream processing)
-  - Periodically crunch large amount of accumulated data(batch processing)
 
-### Reliability
- - A system is reliable if it does what the customer needs, tolerate the user making mistakes, handles load and data volume well without affecting results, prevents any unauthorized access
+
+### Reliability(Continuing to work correctly even when things go wrong)
+ - A system is reliable if it does what the customer needs, tolerate the users making mistakes, handles load and data volume well without affecting results, prevents any unauthorized access
  - A fault tolerant system is a system that has anticipated possible faults and can cope with them.
  - A system can not have zero faults so the best you can do is make sure these faults dont become failures
  - Many critical bugs are due to poor error handling.
- - You can deliberately induce faults to see how other components behave
+ - You can deliberately induce faults to see how other components behave.(Netflix Monkey patching)
  - Sometimes tolerating is not enough you need to prevent it(Security)
+ 
+ A fault tolerant/resilient system is any system that anticipates possible faults and tries to cope with it. 
+ A fault is refers to somehting wrong that happended to only one components of the system and failure is when the 
+ system as a whole stop provides an entire service to a user. 
+ 
+ The goal here is fundamentally to make sure FAULTS dont lead to failures. 
+ 
 
-###  Hardware Faults
+####  Hardware Faults
+Usually uncorrelated errors in an hardware , for example a disk suddently stops working. 
+ - use software tolerant techniques
+ - hardware redundancy 
 
-### Software Faults
+#### Software Faults
+ Correlated systematic errors across nodes. 
+ Examples
+  - unexpected errors that causes an entire instance to crush
+  - A runaway process that uses up some shared resource
+  - A service that slows down, becomes unresponsive or start returning corrupted responses. 
+  - Cascading failures
 
-###  Human Faults
+Common things that can help.
+ - process isolation 
+ - carefully thinking about assumptions and how systems interact
+ - thorough testing
+ - process isolation
+ - allowing process to crush and restart. 
+ - measuring, monitoring
+ - analysizing system behaviour in production.
+
+#### Human Errors
+  - design systems in a way that minimizes opportunities for error
+   -  well designed abstractions, API, admin interfaces
+   -  dont se so strict with your interfaces
+  - Decopule places where people make the most mistakes from the places where they can cause failures. 
+  - Test thorougly at all levels.  Manual test, integration test 
+  - Quick recovery for human errors
+     - make it fast to rollback
+     - roll out new code gradually
+     - provide tools to recompute date ?
+   - Set up telemetry
+   - Good managment practices and training. 
+
+ Sometimes you might to cut corners for various reasons but be very conscious of that action.
+ 
+ 
+
+####  Human Faults
 
 
 ### Scalability
