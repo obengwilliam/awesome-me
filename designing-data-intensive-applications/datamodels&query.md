@@ -1,3 +1,20 @@
+## Quick Summary - Data models and Data query languages
+Abstraction is just information hiding: it coverys enough information to give an idea of what is probably going without too many details.
+
+Data abstractions - 
+Data model  -  Relatonal Model , Document based Model, Graph based Model
+Data Model(Data Storage)- > Data Query(Data Retrieval)
+
+Data Storage
+ -  Relational
+ -  Document Database
+ -  Graph Database 
+ 
+Data Query 
+ -  Declarative, imperative, mapReduce
+
+
+
 Data model
 An application can be considered as layers of data model representations.
 For example as a developer you will initially model ur problem solutions into objects, data structures and api that will manipulate these
