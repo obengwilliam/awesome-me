@@ -1,5 +1,5 @@
 
-This chapter is mostly about helping you deciding on which data model to choose in your application precisely when making a decision on how to store them.
+This chapter is mostly about helping you deciding on which data model, data query to choose in your application precisely when making a decision on how to store them.
 
 ## Data model
 - An application can be considered as layers of data model representations.
