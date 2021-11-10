@@ -62,6 +62,13 @@
 ### Always Choose event streams over apis.
  - 
 
+### Principles of an event interfaces
+ -  First class schema for all events
+ -  Binary format like grpc forces you to choose code generations to produce and consume making behaviour in production is the same.
+ -  Produce gurantee at least once delivery
+ -  Consumer must implment idempotency.
+
+### Approach
 
  
  
