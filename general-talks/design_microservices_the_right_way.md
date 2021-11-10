@@ -54,6 +54,10 @@
 ### Test Resource Operations
  - increase confidence
 
+### Standard Health Check all microservices
+ - Make sure they have access to access to environement variables
+ - Database connection exist
+
 
 
  
