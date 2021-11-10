@@ -59,6 +59,9 @@
  - Database connection exist
 
 
+### Always Choose event streams over apis.
+ - 
+
 
  
  
