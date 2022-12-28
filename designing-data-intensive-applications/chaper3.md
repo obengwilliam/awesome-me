@@ -44,4 +44,7 @@ Each hash map is tied to a specific segment by mergin segement we able to avoid 
 
 
 
+# Vocabulary
+`storage engine` - 
+
 
